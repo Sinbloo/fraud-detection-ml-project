@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Vehicle Insurance Claim Fraud Detection
+# requirements.txt — pin versions for reproducibility
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Data & ML ─────────────────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+imbalanced-learn>=0.12.0
+scipy>=1.13.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# ── API backend ───────────────────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+streamlit>=1.36.0
+requests>=2.32.0
+
+# ── Model serialisation ───────────────────────────────────────────────────────
+# pickle is part of the Python standard library — no install required
+
+# ── Notebook (optional, for Colab / Jupyter) ──────────────────────────────────
+ipykernel>=6.29.0
+jupyter>=1.0.0
+nbformat>=5.10.0
+
+# ── Kaggle API (optional, for dataset download) ───────────────────────────────
+kaggle>=1.6.0
